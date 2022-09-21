@@ -1,0 +1,25 @@
+#task-box {
+  position:sticky;
+  bottom: 10px;
+  display: block;
+  overflow:hidden;
+  border: 1px solid rgb(25, 108, 197);
+  // border-style: inset;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 25px;
+  background-color: whitesmoke;
+  input{
+    // background-color: rgb(253, 255, 241); 
+    background-color: whitesmoke;
+  }
+
+
+  input:focus {
+    outline:none;
+  }
+
+}
+
+#task-box-card{
+  border-bottom: none;
+}

@@ -1,0 +1,25 @@
+@import "~bootstrap";
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Kalam:wght@300;400&family=Rubik+Burned&display=swap');
+// @import url('.. assets/background.png');
+$primary: rgb(253, 255, 241);
+
+h1{
+    font-family: 'Rubik Burned', cursive;
+}
+
+
+body{
+    color: rgb(23, 23, 23);
+    font-family:  'Kalam', cursive;
+    text-shadow: 2px,2px,2px ;
+    background-image: url('../assets/background.jpg');
+    background-repeat: repeat;
+    background-size: cover;
+    // background-color: $primary;
+    height: 100%;
+    
+
+
+}
+
+
